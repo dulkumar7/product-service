@@ -3,8 +3,6 @@ applications:
 - name: product-service
   path: build/libs/productService-0.0.1-SNAPSHOT.jar
   routes:
-  - route: product-service.pcfapps.nonprod.ptc.nttdataservices.com
+  - route: product-service-nttdata.cfapps.io
   services:
   - products_db
-  - productService-circuit-breaker
-  
